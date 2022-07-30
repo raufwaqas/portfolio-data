@@ -1,35 +1,27 @@
-{
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
-  }
-}
+[
+  {
+    experience: [
+      {
+        title: "Graphic & Front-End Web Designer",
+        employment: "Starmedia, Malmö, Sweden",
+        year: "2019 - Current",
+        detail:
+          "Delivering impactful results by providing innovative website development services and print and digital media content, including logos, menus, flyers, social media materials, while partnering with clients to define project requirements, scopes, and project milestones. Enhancing online service quality by overseeing site development, implementing SEO tactics, and handling maintenance to ensure consistency and usability across client branding. Improving digital media offerings by utilizing industry software, including Adobe Photoshop, Aftereffects, and Illustrator, to produce engaging new imagery.",
+      },
+      {
+        title: "Graphic Designer",
+        employment: "Ambrosia Group ApS, Denmark",
+        year: "2018 - 2019",
+        detail:
+          "Exceeded branding goals and KPIs by developing display, marketing, and packaging materials and designing a wide range of concepts, graphics, and layouts for product illustrations, brand packages, campaigns, and websites, while ensuring brand consistency in all materials. Collaborated with management to further develop the company’s brand identity and ensure all graphics and layouts are aesthetically appealing and adhere to quality standards. Strengthened clients’ brand presence and market positioning by designing promotional material and creating digital content, monthly campaigns, landing page layouts, and website banners.",
+      },
+      {
+        title: "Graphic & Front-End Web Designer",
+        employment: "Al Kazaz Media AB, Malmö, Sweden",
+        year: "2018 - 2019",
+        detail:
+          "Maximized client satisfaction and retention by utilizing exceptional communication and interpersonal skills to work closely with clients and understand project requirements and overseeing print material design and timely project completion and delivery. Enhanced company growth and capabilities by identifying industry trends, researching new and innovative designing processes, and recommending new field developments for projects.",
+      },
+    ],
+  },
+];
